@@ -11,7 +11,7 @@
     }
   },
   "dev": {
-    "latestVersionCode": 12,
+    "latestVersionCode": 13,
     "latestVersionName": "1.1.13-dev",
     "changelog": "优化了些小问题",
     "downloadLinks": {
