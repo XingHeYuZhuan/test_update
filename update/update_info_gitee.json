@@ -7,7 +7,7 @@
       "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.11/app-prod-arm64-v8a-release.apk",
       "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.11/app-prod-armeabi-v7a-release.apk",
       "x86": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.11/app-prod-x86-release.apk",
-      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/XingHeYuZhuan/shiguangschedule/releases/download/v1.1.11/app-prod-x86_64-release.apk",
+      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/XingHeYuZhuan/shiguangschedule/releases/download/v1.1.11/app-prod-x86_64-release.apk"
     }
   },
   "dev": {
@@ -18,7 +18,7 @@
       "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.11-dev/app-dev-arm64-v8a-release.apk",
       "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.11-dev/app-dev-armeabi-v7a-release.apk",
       "x86": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.11-dev/app-dev-x86-release.apk",
-      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.11-dev/app-dev-x86_64-release.apk",
+      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.11-dev/app-dev-x86_64-release.apk"
     }
   }
 }
