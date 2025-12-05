@@ -1,0 +1,24 @@
+{
+  "prod": {
+    "latestVersionCode": 11,
+    "latestVersionName": "1.1.11",
+    "changelog": "## v1.1.11\n\n### ✨ 新增功能 (Features)\n\n- 添加英语和繁体中文的翻译\n- 添加多语言支持依赖与模板\n- 教务导入新增课表配置调用js函数\n- 新增上课自动开启勿扰功能选项\n- 新增每周起始日选项,更多设置项可以随课表切换\n\n### 💡 功能与体验优化 (Improvements)\n\n- 更改课程块颜色支持,更加适配深浅ui模式的颜色风格\n- 小部件字符文本添加超出省略效果\n- 小组件添加明日课程预告\n- 文件导入导出优化,教务导入逻辑优化\n- 为小部件添加自适应效果以适配更多屏幕",
+    "downloadLinks": {
+      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.11/app-prod-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.11/app-prod-armeabi-v7a-release.apk",
+      "x86": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.11/app-prod-x86-release.apk",
+      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/XingHeYuZhuan/shiguangschedule/releases/download/v1.1.11/app-prod-x86_64-release.apk",
+    }
+  },
+  "dev": {
+    "latestVersionCode": 11,
+    "latestVersionName": "1.1.11-dev",
+    "changelog": "优化了些小问题",
+    "downloadLinks": {
+      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.11-dev/app-dev-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.11-dev/app-dev-armeabi-v7a-release.apk",
+      "x86": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.11-dev/app-dev-x86-release.apk",
+      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.11-dev/app-dev-x86_64-release.apk",
+    }
+  }
+}
