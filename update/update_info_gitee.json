@@ -11,8 +11,8 @@
     }
   },
   "dev": {
-    "latestVersionCode": 13,
-    "latestVersionName": "1.1.13-dev",
+    "latestVersionCode": 11,
+    "latestVersionName": "1.1.11-dev",
     "changelog": "优化了些小问题",
     "downloadLinks": {
       "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.11-dev/app-dev-arm64-v8a-release.apk",
