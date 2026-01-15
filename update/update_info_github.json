@@ -11,14 +11,14 @@
     }
   },
   "dev": {
-    "latestVersionCode": 12,
-    "latestVersionName": "1.1.12-beta-dev",
-    "changelog": "## 1.1.12-beta-de\n\n### ✨ 新增功能 (Features)\n\n- 重构小组件底层支持课程颜色同步,今日课程支持课程颜色同步\n- 个性化定制你的课表页面,新增个性化配置编辑页面\n- 新增课程管理页面,支持全局管理,具有课程灵活的添加和删除模式\n- 新增软件检查更新支持\n- 增加课程自定义时间的选项",
+    "latestVersionCode": 13,
+    "latestVersionName": "1.1.12-dev",
+    "changelog": "## v1.1.12-dev\n\n### 🐛 Bug 修复 (Bug Fixes)\n\n- 修复部分小组件对于假期状态的不显示问题\n### 💡 功能与体验优化 (Improvements)\n\n- 重构小组件底层实现,进一步缩小软件包体积\n- 优化自定义课程的显示逻辑以及编辑自定义课程时间的输入优化\n### 🚀 性能与代码改进 (Improvements)\n\n- 重构课表底层为“真日历”模式，实现无限滚动和数据加载优化",
     "downloadLinks": {
-      "arm64-v8a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.1.12-beta-dev/app-dev-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.1.12-beta-dev/app-dev-armeabi-v7a-release.apk",
-      "x86": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.1.12-beta-dev/app-dev-x86-release.apk",
-      "x86_64": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.1.12-beta-dev/app-dev-x86_64-release.apk"
+      "arm64-v8a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/1.1.12-dev/app-dev-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/1.1.12-dev/app-dev-armeabi-v7a-release.apk",
+      "x86": "",
+      "x86_64": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/1.1.12-dev/app-dev-x86_64-release.apk"
     }
   }
 }
