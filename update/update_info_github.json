@@ -15,10 +15,10 @@
     "latestVersionName": "1.1.12-dev",
     "changelog": "## v1.1.12-dev\n\n### 🐛 Bug 修复 (Bug Fixes)\n\n- 修复部分小组件对于假期状态的不显示问题\n### 💡 功能与体验优化 (Improvements)\n\n- 重构小组件底层实现,进一步缩小软件包体积\n- 优化自定义课程的显示逻辑以及编辑自定义课程时间的输入优化\n### 🚀 性能与代码改进 (Improvements)\n\n- 重构课表底层为“真日历”模式，实现无限滚动和数据加载优化",
     "downloadLinks": {
-      "arm64-v8a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/1.1.12-dev/app-dev-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/1.1.12-dev/app-dev-armeabi-v7a-release.apk",
+      "arm64-v8a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.1.12-dev/app-dev-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.1.12-dev/app-dev-armeabi-v7a-release.apk",
       "x86": "",
-      "x86_64": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/1.1.12-dev/app-dev-x86_64-release.apk"
+      "x86_64": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.1.12-dev/app-dev-x86_64-release.apk"
     }
   }
 }
