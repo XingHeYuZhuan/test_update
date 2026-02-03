@@ -1,24 +1,26 @@
 {
   "prod": {
-    "latestVersionCode": 13,
-    "latestVersionName": "1.1.12",
-    "changelog": "## v1.1.12\n\n### ✨ 新增功能 (Features)\n\n- 重构小组件底层支持课程颜色同步,今日课程支持课程颜色同步\n- 个性化定制你的课表页面,新增个性化配置编辑页面\n- 新增课程管理页面,支持全局管理,具有课程灵活的添加和删除模式\n- 新增软件检查更新支持\n- 增加课程自定义时间的选项\n### 🐛 Bug 修复 (Bug Fixes)\n\n- 修复部分小组件对于假期状态的不显示问题\n### 💡 功能与体验优化 (Improvements)\n\n- 重构小组件底层实现,进一步缩小软件包体积\n- 优化自定义课程的显示逻辑以及编辑自定义课程时间的输入优化\n### 🚀 性能与代码改进 (Improvements)\n\n- 重构课表底层为“真日历”模式，实现无限滚动和数据加载优化",
+    "latestVersionCode": 15,
+    "latestVersionName": "v1.1.13",
+    "changelog": "## v1.1.13\n\n### ✨ 新增功能 (Features)\n\n- 新增快捷操作页面与基于日期快速删除课程功能\n\n### 🐛 Bug 修复 (Bug Fixes)\n\n- 修复冲突课程渲染异常问题\n\n### 💡 功能与体验优化 (Improvements)\n\n- 增强调课功能\n- 样式页面添加网格线隐藏开关\n- 优化课表页面加载逻辑，使切换课程更加平滑",
     "downloadLinks": {
-      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.12/app-prod-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.12/app-prod-armeabi-v7a-release.apk",
+      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.13/app-prod-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.13/app-prod-armeabi-v7a-release.apk",
+      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.13/app-prod-x86_64-release.apk",
       "x86": "",
-      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.12/app-prod-x86_64-release.apk"
+      "universal": ""
     }
   },
   "dev": {
-    "latestVersionCode": 13,
-    "latestVersionName": "1.1.12-dev",
-    "changelog": "## v1.1.12-dev\n\n### 🐛 Bug 修复 (Bug Fixes)\n\n- 修复部分小组件对于假期状态的不显示问题\n### 💡 功能与体验优化 (Improvements)\n\n- 重构小组件底层实现,进一步缩小软件包体积\n- 优化自定义课程的显示逻辑以及编辑自定义课程时间的输入优化\n### 🚀 性能与代码改进 (Improvements)\n\n- 重构课表底层为“真日历”模式，实现无限滚动和数据加载优化",
+    "latestVersionCode": 15,
+    "latestVersionName": "v1.1.13-dev",
+    "changelog": "## v1.1.13-dev\r\n\r\n### ✨ 新增功能 (Features)\r\n\r\n- 新增快捷操作页面与基于日期快速删除课程功能\r\n\r\n### 💡 功能与体验优化 (Improvements)\r\n\r\n- 增强调课功能",
     "downloadLinks": {
-      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.12-dev/app-dev-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.12-dev/app-dev-armeabi-v7a-release.apk",
+      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.13-dev/app-dev-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.13-dev/app-dev-armeabi-v7a-release.apk",
+      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.13-dev/app-dev-x86_64-release.apk",
       "x86": "",
-      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.1.12-dev/app-dev-x86_64-release.apk"
+      "universal": ""
     }
   }
 }
