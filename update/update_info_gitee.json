@@ -1,24 +1,24 @@
 {
   "prod": {
-    "latestVersionCode": 29,
-    "latestVersionName": "v1.2.1",
-    "changelog": "## v1.2.1\r\n\r\n### ✨ 新增功能 (Features)\r\n\r\n- 引入学校访问历史记录并优化列表索引交互\r\n- 优化时间段管理逻辑、修复 ICS 导出日期对齐问题并改进 UI 体验\r\n- 个性化支持文字居中对齐、边框样式自定义及样式设置交互优化\r\n- 为课程编辑界面添加未保存更改的退出拦截提醒\r\n- 优化仓库更新界面交互与 Git 同步日志显示\r\n- 引入非本周课程显示功能并重构课程重叠处理逻辑\r\n- 添加当前时间段高亮显示功能\r\n- 优化课表界面显示并在网格左上角新增年份显示\r\n- 引入垂直列表桌面小组件并优化现有组件渲染逻辑\r\n- 新增穿戴设备同步兼容模式并重构通知设置界面\r\n- 预见式返回动画\r\n- 重构课程编辑功能，支持多课程方案管理\r\n- 新增上课进度条提醒功能，在支持的设备引入实时课程进度通知\r\n- 新增语言切换功能\r\n\r\n### 🐛 Bug 修复 (Bug Fixes)\r\n\r\n- 优化双日小组件无课状态的文本显示逻辑\r\n- 修复英文状态下课表星期显示文本过长的问题\r\n\r\n### 💡 功能与体验优化 (Improvements)\r\n\r\n- 课程提醒增加live updatas属性，移除实时课程进度条\r\n- 优化逻辑，周起始日设置与周末显示双向联动\r\n- 优化 WebView 桌面模式兼容性并调整勿扰模式逻辑\r\n- 课表页状态栏沉浸\r\n\r\n### 🚀 性能与代码改进 (Improvements)\r\n\r\n- 优化桌面小组件课程指示条样式\r\n- 优化 UI 界面样式与交互体验\r\n- 引入安全导航机制并优化界面切换动画\r\n- 优化 Compose 导航动画逻辑并重构 AppNavigation\r\n- 优化课程提醒与勿扰模式的闹钟管理机制\r\n- 提取图片裁剪逻辑为通用组件\r\n- 将应用设置从 Room 数据库迁移至 DataStore\r\n- 引入 Hilt 依赖注入框架并优化 ViewModel 配置\r\n- 重构 WebView 组件并优化显示\r\n- 移除旧的语言切换逻辑，改用 Appcompat 库实现\r\n\r\n### 🚧 其他提交 (Other Commits)\r\n\r\n- 壁纸缩放裁剪功能\r\n\r\n\r\n## 新的贡献者\r\n* @dezige131 made their first contribution in https://github.com/XingHeYuZhuan/shiguangschedule/pull/49\r\n* @StarVase made their first contribution in https://github.com/XingHeYuZhuan/shiguangschedule/pull/62\r\n\r\n**Full Changelog**: https://github.com/XingHeYuZhuan/shiguangschedule/compare/v1.1.13...v1.2.1",
+    "latestVersionCode": 30,
+    "latestVersionName": "v1.2.2",
+    "changelog": "## v1.2.2\n\n### ✨ 新增功能 (Features)\n\n- 支持在课程中添加备注信息\n- 支持自定义课表页面及课程块的文字颜色\n\n### 💡 功能与体验优化 (Improvements)\n\n- 优化课表导入导出逻辑并支持备注字段迁移\n- 优化滚动选择器的滚动选中逻辑\n- 优化今日课表与周课表的状态显示与架构逻辑\n- 优化深色模式状态管理逻辑\n- 优化桌面小组件布局与课程显示逻辑\n- 优化课程导入逻辑，实现同名课程自动分配相同颜色\n- 新增主题设置功能并支持自定义主色调\n- 新增启动页设置\n- 优化课程冲突逻辑，更换非本周课程视觉提示 (#71)\n- 优化非本周课程显示\n- 为滚动选择器添加动画效果\n\n### 🚀 性能与代码改进 (Improvements)\n\n- 迁移导航框架至 Navigation 3 并重构页面路由机制\n- 将样式设置界面的 UI 组件提取到独立文件便于维护",
     "downloadLinks": {
-      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.1/app-prod-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.1/app-prod-armeabi-v7a-release.apk",
-      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.1/app-prod-x86_64-release.apk",
+      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.2/app-prod-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.2/app-prod-armeabi-v7a-release.apk",
+      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.2/app-prod-x86_64-release.apk",
       "x86": "",
       "universal": ""
     }
   },
   "dev": {
-    "latestVersionCode": 29,
-    "latestVersionName": "v1.2.1-dev",
-    "changelog": "## v1.2.1-dev\r\n\r\n### ✨ 新增功能 (Features)\r\n\r\n- 引入学校访问历史记录并优化列表索引交互\r\n- 优化时间段管理逻辑、修复 ICS 导出日期对齐问题并改进 UI 体验\r\n- 个性化支持文字居中对齐、边框样式自定义及样式设置交互优化\r\n- 为课程编辑界面添加未保存更改的退出拦截提醒\r\n- 优化仓库更新界面交互与 Git 同步日志显示\r\n- 引入非本周课程显示功能并重构课程重叠处理逻辑\r\n- 添加当前时间段高亮显示功能\r\n- 优化课表界面显示并在网格左上角新增年份显示\r\n- 引入垂直列表桌面小组件并优化现有组件渲染逻辑\r\n- 新增穿戴设备同步兼容模式并重构通知设置界面\r\n- 预见式返回动画\r\n- 重构课程编辑功能，支持多课程方案管理\r\n- 新增上课进度条提醒功能，在支持的设备引入实时课程进度通知\r\n- 新增语言切换功能\r\n\r\n### 🐛 Bug 修复 (Bug Fixes)\r\n\r\n- 优化双日小组件无课状态的文本显示逻辑\r\n- 修复英文状态下课表星期显示文本过长的问题\r\n\r\n### 💡 功能与体验优化 (Improvements)\r\n\r\n- 课程提醒增加live updatas属性，移除实时课程进度条\r\n- 优化逻辑，周起始日设置与周末显示双向联动\r\n- 优化 WebView 桌面模式兼容性并调整勿扰模式逻辑\r\n- 课表页状态栏沉浸\r\n\r\n### 🚀 性能与代码改进 (Improvements)\r\n\r\n- 优化桌面小组件课程指示条样式\r\n- 优化 UI 界面样式与交互体验\r\n- 引入安全导航机制并优化界面切换动画\r\n- 优化 Compose 导航动画逻辑并重构 AppNavigation\r\n- 优化课程提醒与勿扰模式的闹钟管理机制\r\n- 提取图片裁剪逻辑为通用组件\r\n- 将应用设置从 Room 数据库迁移至 DataStore\r\n- 引入 Hilt 依赖注入框架并优化 ViewModel 配置\r\n- 重构 WebView 组件并优化显示\r\n- 移除旧的语言切换逻辑，改用 Appcompat 库实现\r\n\r\n### 🚧 其他提交 (Other Commits)\r\n\r\n- 壁纸缩放裁剪功能\r\n\r\n\r\n## 新的贡献者\r\n* @dezige131 made their first contribution in https://github.com/XingHeYuZhuan/shiguangschedule/pull/49\r\n* @StarVase made their first contribution in https://github.com/XingHeYuZhuan/shiguangschedule/pull/62\r\n\r\n**Full Changelog**: https://github.com/XingHeYuZhuan/shiguangschedule/compare/v1.1.13...v1.2.1-dev",
+    "latestVersionCode": 30,
+    "latestVersionName": "v1.2.2-dev",
+    "changelog": "## v1.2.2-dev\r\n\r\n### ✨ 新增功能 (Features)\r\n\r\n- 支持在课程中添加备注信息\r\n- 支持自定义课表页面及课程块的文字颜色\r\n\r\n### 💡 功能与体验优化 (Improvements)\r\n\r\n- 优化课表导入导出逻辑并支持备注字段迁移\r\n- 优化滚动选择器的滚动选中逻辑\r\n- 优化今日课表与周课表的状态显示与架构逻辑\r\n- 优化深色模式状态管理逻辑\r\n- 优化桌面小组件布局与课程显示逻辑\r\n- 优化课程导入逻辑，实现同名课程自动分配相同颜色\r\n- 新增主题设置功能并支持自定义主色调\r\n- 新增启动页设置\r\n- 优化课程冲突逻辑，更换非本周课程视觉提示 (#71)\r\n- 优化非本周课程显示\r\n- 为滚动选择器添加动画效果\r\n\r\n### 🚀 性能与代码改进 (Improvements)\r\n\r\n- 迁移导航框架至 Navigation 3 并重构页面路由机制\r\n- 将样式设置界面的 UI 组件提取到独立文件便于维护",
     "downloadLinks": {
-      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.1-dev/app-dev-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.1-dev/app-dev-armeabi-v7a-release.apk",
-      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.1-dev/app-dev-x86_64-release.apk",
+      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.2-dev/app-dev-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.2-dev/app-dev-armeabi-v7a-release.apk",
+      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.2-dev/app-dev-x86_64-release.apk",
       "x86": "",
       "universal": ""
     }
