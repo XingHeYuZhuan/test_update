@@ -1,24 +1,24 @@
 {
   "prod": {
-    "latestVersionCode": 30,
-    "latestVersionName": "v1.2.2",
-    "changelog": "## v1.2.2\n\n### ✨ 新增功能 (Features)\n\n- 支持在课程中添加备注信息\n- 支持自定义课表页面及课程块的文字颜色\n\n### 💡 功能与体验优化 (Improvements)\n\n- 优化课表导入导出逻辑并支持备注字段迁移\n- 优化滚动选择器的滚动选中逻辑\n- 优化今日课表与周课表的状态显示与架构逻辑\n- 优化深色模式状态管理逻辑\n- 优化桌面小组件布局与课程显示逻辑\n- 优化课程导入逻辑，实现同名课程自动分配相同颜色\n- 新增主题设置功能并支持自定义主色调\n- 新增启动页设置\n- 优化课程冲突逻辑，更换非本周课程视觉提示 (#71)\n- 优化非本周课程显示\n- 为滚动选择器添加动画效果\n\n### 🚀 性能与代码改进 (Improvements)\n\n- 迁移导航框架至 Navigation 3 并重构页面路由机制\n- 将样式设置界面的 UI 组件提取到独立文件便于维护",
+    "latestVersionCode": 31,
+    "latestVersionName": "v1.2.3",
+    "changelog": "## v1.2.3\r\n\r\n### ✨ 新增功能 (Features)\r\n\r\n- 支持将课表一键同步至系统日历\r\n- 支持时间段自定义别名并优化相关 UI 显示\r\n\r\n### 💡 功能与体验优化 (Improvements)\r\n\r\n- 优化课表合并块视觉表现，支持局部非本周课程视觉降级效果\r\n- 优化 RGB 输入框的文本输入逻辑与交互体验\r\n- 去除 WebView 强制加入的 X-Requested-With 请求头 (#83)\r\n- 课表页面右上角添加快捷切换课表按钮 (#79)\r\n\r\n## 新的贡献者\r\n* @RealityVF made their first contribution in https://github.com/XingHeYuZhuan/shiguangschedule/pull/79",
     "downloadLinks": {
-      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.2/app-prod-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.2/app-prod-armeabi-v7a-release.apk",
-      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.2/app-prod-x86_64-release.apk",
+      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.3/app-prod-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.3/app-prod-armeabi-v7a-release.apk",
+      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.3/app-prod-x86_64-release.apk",
       "x86": "",
       "universal": ""
     }
   },
   "dev": {
-    "latestVersionCode": 30,
-    "latestVersionName": "v1.2.2-dev",
-    "changelog": "## v1.2.2-dev\r\n\r\n### ✨ 新增功能 (Features)\r\n\r\n- 支持在课程中添加备注信息\r\n- 支持自定义课表页面及课程块的文字颜色\r\n\r\n### 💡 功能与体验优化 (Improvements)\r\n\r\n- 优化课表导入导出逻辑并支持备注字段迁移\r\n- 优化滚动选择器的滚动选中逻辑\r\n- 优化今日课表与周课表的状态显示与架构逻辑\r\n- 优化深色模式状态管理逻辑\r\n- 优化桌面小组件布局与课程显示逻辑\r\n- 优化课程导入逻辑，实现同名课程自动分配相同颜色\r\n- 新增主题设置功能并支持自定义主色调\r\n- 新增启动页设置\r\n- 优化课程冲突逻辑，更换非本周课程视觉提示 (#71)\r\n- 优化非本周课程显示\r\n- 为滚动选择器添加动画效果\r\n\r\n### 🚀 性能与代码改进 (Improvements)\r\n\r\n- 迁移导航框架至 Navigation 3 并重构页面路由机制\r\n- 将样式设置界面的 UI 组件提取到独立文件便于维护",
+    "latestVersionCode": 31,
+    "latestVersionName": "v1.2.3-dev",
+    "changelog": "## v1.2.3-dev\r\n\r\n### ✨ 新增功能 (Features)\r\n\r\n- 支持将课表一键同步至系统日历\r\n- 支持时间段自定义别名并优化相关 UI 显示\r\n\r\n### 💡 功能与体验优化 (Improvements)\r\n\r\n- 优化课表合并块视觉表现，支持局部非本周课程视觉降级效果\r\n- 优化 RGB 输入框的文本输入逻辑与交互体验\r\n- 去除 WebView 强制加入的 X-Requested-With 请求头 (#83)\r\n- 课表页面右上角添加快捷切换课表按钮 (#79)\r\n\r\n## 新的贡献者\r\n* @RealityVF made their first contribution in https://github.com/XingHeYuZhuan/shiguangschedule/pull/79",
     "downloadLinks": {
-      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.2-dev/app-dev-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.2-dev/app-dev-armeabi-v7a-release.apk",
-      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.2-dev/app-dev-x86_64-release.apk",
+      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.3-dev/app-dev-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.3-dev/app-dev-armeabi-v7a-release.apk",
+      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.3-dev/app-dev-x86_64-release.apk",
       "x86": "",
       "universal": ""
     }
