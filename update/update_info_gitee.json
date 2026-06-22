@@ -1,24 +1,24 @@
 {
   "prod": {
-    "latestVersionCode": 31,
-    "latestVersionName": "v1.2.3",
-    "changelog": "## v1.2.3\r\n\r\n### ✨ 新增功能 (Features)\r\n\r\n- 支持将课表一键同步至系统日历\r\n- 支持时间段自定义别名并优化相关 UI 显示\r\n\r\n### 💡 功能与体验优化 (Improvements)\r\n\r\n- 优化课表合并块视觉表现，支持局部非本周课程视觉降级效果\r\n- 优化 RGB 输入框的文本输入逻辑与交互体验\r\n- 去除 WebView 强制加入的 X-Requested-With 请求头 (#83)\r\n- 课表页面右上角添加快捷切换课表按钮 (#79)\r\n\r\n## 新的贡献者\r\n* @RealityVF made their first contribution in https://github.com/XingHeYuZhuan/shiguangschedule/pull/79",
+    "latestVersionCode": 32,
+    "latestVersionName": "v1.2.4",
+    "changelog": "## v1.2.4\n\n### ✨ 新增功能 (Features)\n\n- 支持课表样式备份与恢复并优化备份模块容错性\n- 实现数据备份与恢复功能，支持 WebDAV 云同步及本地文件导出\n- 支持跨周挂起拖拽并新增悬浮挂起课程展示\n- 引入24小时时间轴模式并支持交互式手势调课\n- 扩展课程预设数据模型并支持更多字段的自动填充\n\n### 💡 功能与体验优化 (Improvements)\n\n- 增强课程导入校验逻辑并优化时间段管理\n- 优化课表拖拽交互逻辑并完善 24 小时模式兼容性\n- 优化底部导航栏的折叠动画表现并实现布局间距动态联动\n- 提升 ScheduleGrid 滚动状态控制并优化底部导航栏显示逻辑\n- 优化时间段管理逻辑并增加时间冲突校验",
     "downloadLinks": {
-      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.3/app-prod-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.3/app-prod-armeabi-v7a-release.apk",
-      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.3/app-prod-x86_64-release.apk",
+      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.4/app-prod-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.4/app-prod-armeabi-v7a-release.apk",
+      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.4/app-prod-x86_64-release.apk",
       "x86": "",
       "universal": ""
     }
   },
   "dev": {
-    "latestVersionCode": 31,
-    "latestVersionName": "v1.2.3-dev",
-    "changelog": "## v1.2.3-dev\r\n\r\n### ✨ 新增功能 (Features)\r\n\r\n- 支持将课表一键同步至系统日历\r\n- 支持时间段自定义别名并优化相关 UI 显示\r\n\r\n### 💡 功能与体验优化 (Improvements)\r\n\r\n- 优化课表合并块视觉表现，支持局部非本周课程视觉降级效果\r\n- 优化 RGB 输入框的文本输入逻辑与交互体验\r\n- 去除 WebView 强制加入的 X-Requested-With 请求头 (#83)\r\n- 课表页面右上角添加快捷切换课表按钮 (#79)\r\n\r\n## 新的贡献者\r\n* @RealityVF made their first contribution in https://github.com/XingHeYuZhuan/shiguangschedule/pull/79",
+    "latestVersionCode": 32,
+    "latestVersionName": "v1.2.4-dev",
+    "changelog": "## v1.2.4-dev\r\n\r\n### ✨ 新增功能 (Features)\r\n\r\n- 支持课表样式备份与恢复并优化备份模块容错性\r\n- 实现数据备份与恢复功能，支持 WebDAV 云同步及本地文件导出\r\n- 支持跨周挂起拖拽并新增悬浮挂起课程展示\r\n- 引入24小时时间轴模式并支持交互式手势调课\r\n- 扩展课程预设数据模型并支持更多字段的自动填充\r\n\r\n### 💡 功能与体验优化 (Improvements)\r\n\r\n- 增强课程导入校验逻辑并优化时间段管理\r\n- 优化课表拖拽交互逻辑并完善 24 小时模式兼容性\r\n- 优化底部导航栏的折叠动画表现并实现布局间距动态联动\r\n- 提升 ScheduleGrid 滚动状态控制并优化底部导航栏显示逻辑\r\n- 优化时间段管理逻辑并增加时间冲突校验",
     "downloadLinks": {
-      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.3-dev/app-dev-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.3-dev/app-dev-armeabi-v7a-release.apk",
-      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.3-dev/app-dev-x86_64-release.apk",
+      "arm64-v8a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.4-dev/app-dev-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.4-dev/app-dev-armeabi-v7a-release.apk",
+      "x86_64": "https://gitee.com/XingHeYuZhuan-gh/shiguangschedule/releases/download/v1.2.4-dev/app-dev-x86_64-release.apk",
       "x86": "",
       "universal": ""
     }
