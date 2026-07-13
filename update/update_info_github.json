@@ -1,24 +1,24 @@
 {
   "prod": {
-    "latestVersionCode": 32,
-    "latestVersionName": "v1.2.4",
-    "changelog": "## v1.2.4\n\n### ✨ 新增功能 (Features)\n\n- 支持课表样式备份与恢复并优化备份模块容错性\n- 实现数据备份与恢复功能，支持 WebDAV 云同步及本地文件导出\n- 支持跨周挂起拖拽并新增悬浮挂起课程展示\n- 引入24小时时间轴模式并支持交互式手势调课\n- 扩展课程预设数据模型并支持更多字段的自动填充\n\n### 💡 功能与体验优化 (Improvements)\n\n- 增强课程导入校验逻辑并优化时间段管理\n- 优化课表拖拽交互逻辑并完善 24 小时模式兼容性\n- 优化底部导航栏的折叠动画表现并实现布局间距动态联动\n- 提升 ScheduleGrid 滚动状态控制并优化底部导航栏显示逻辑\n- 优化时间段管理逻辑并增加时间冲突校验",
+    "latestVersionCode": 33,
+    "latestVersionName": "v1.2.5",
+    "changelog": "## v1.2.5\n\n### ✨ 新增功能 (Features)\n\n- 课表选择对话框支持快速新建课表\n- 点击课程块展示详情弹窗\n\n### 🐛 Bug 修复 (Bug Fixes)\n\n- 仅在有效教学周允许添加课程并传递当前周次信息\n\n### 💡 功能与体验优化 (Improvements)\n\n- 优化今日课表排序逻辑并实现自动滚动至当前课程\n- 优化课程详情页周次显示及布局调整\n- 星期栏年份位置新增简单周次显示\n- 优化日程头部布局及文字显示，增加日期自适应隐藏逻辑\n- 优化课程块时间显示逻辑，支持 24 小时模式显示起止时间\n- 完善数据转换接口中时间段别名限制\n\n### 🚀 性能与代码改进 (Improvements)\n\n- 移除课程块中的多课程重叠堆叠图标及相关逻辑",
     "downloadLinks": {
-      "arm64-v8a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.4/app-prod-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.4/app-prod-armeabi-v7a-release.apk",
-      "x86_64": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.4/app-prod-x86_64-release.apk",
+      "arm64-v8a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.5/app-prod-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.5/app-prod-armeabi-v7a-release.apk",
+      "x86_64": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.5/app-prod-x86_64-release.apk",
       "x86": "",
       "universal": ""
     }
   },
   "dev": {
-    "latestVersionCode": 32,
-    "latestVersionName": "v1.2.4-dev",
-    "changelog": "## v1.2.4-dev\r\n\r\n### ✨ 新增功能 (Features)\r\n\r\n- 支持课表样式备份与恢复并优化备份模块容错性\r\n- 实现数据备份与恢复功能，支持 WebDAV 云同步及本地文件导出\r\n- 支持跨周挂起拖拽并新增悬浮挂起课程展示\r\n- 引入24小时时间轴模式并支持交互式手势调课\r\n- 扩展课程预设数据模型并支持更多字段的自动填充\r\n\r\n### 💡 功能与体验优化 (Improvements)\r\n\r\n- 增强课程导入校验逻辑并优化时间段管理\r\n- 优化课表拖拽交互逻辑并完善 24 小时模式兼容性\r\n- 优化底部导航栏的折叠动画表现并实现布局间距动态联动\r\n- 提升 ScheduleGrid 滚动状态控制并优化底部导航栏显示逻辑\r\n- 优化时间段管理逻辑并增加时间冲突校验",
+    "latestVersionCode": 33,
+    "latestVersionName": "v1.2.5-dev",
+    "changelog": "## v1.2.5-dev\r\n\r\n### ✨ 新增功能 (Features)\r\n\r\n- 课表选择对话框支持快速新建课表\r\n- 点击课程块展示详情弹窗\r\n\r\n### 🐛 Bug 修复 (Bug Fixes)\r\n\r\n- 仅在有效教学周允许添加课程并传递当前周次信息\r\n\r\n### 💡 功能与体验优化 (Improvements)\r\n\r\n- 优化今日课表排序逻辑并实现自动滚动至当前课程\r\n- 优化课程详情页周次显示及布局调整\r\n- 星期栏年份位置新增简单周次显示\r\n- 优化日程头部布局及文字显示，增加日期自适应隐藏逻辑\r\n- 优化课程块时间显示逻辑，支持 24 小时模式显示起止时间\r\n- 完善数据转换接口中时间段别名限制\r\n\r\n### 🚀 性能与代码改进 (Improvements)\r\n\r\n- 移除课程块中的多课程重叠堆叠图标及相关逻辑",
     "downloadLinks": {
-      "arm64-v8a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.4-dev/app-dev-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.4-dev/app-dev-armeabi-v7a-release.apk",
-      "x86_64": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.4-dev/app-dev-x86_64-release.apk",
+      "arm64-v8a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.5-dev/app-dev-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.5-dev/app-dev-armeabi-v7a-release.apk",
+      "x86_64": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.5-dev/app-dev-x86_64-release.apk",
       "x86": "",
       "universal": ""
     }
