@@ -1,26 +1,26 @@
 {
   "prod": {
-    "latestVersionCode": 33,
-    "latestVersionName": "v1.2.5",
-    "changelog": "## v1.2.5\n\n### ✨ 新增功能 (Features)\n\n- 课表选择对话框支持快速新建课表\n- 点击课程块展示详情弹窗\n\n### 🐛 Bug 修复 (Bug Fixes)\n\n- 仅在有效教学周允许添加课程并传递当前周次信息\n\n### 💡 功能与体验优化 (Improvements)\n\n- 优化今日课表排序逻辑并实现自动滚动至当前课程\n- 优化课程详情页周次显示及布局调整\n- 星期栏年份位置新增简单周次显示\n- 优化日程头部布局及文字显示，增加日期自适应隐藏逻辑\n- 优化课程块时间显示逻辑，支持 24 小时模式显示起止时间\n- 完善数据转换接口中时间段别名限制\n\n### 🚀 性能与代码改进 (Improvements)\n\n- 移除课程块中的多课程重叠堆叠图标及相关逻辑",
+    "latestVersionCode": 34,
+    "latestVersionName": "v2.0.0",
+    "changelog": "## v2.0.0\r\n\r\n### ✨ 新增功能 (Features)\r\n\r\n- 引入 MaterialKolor 动态配色并优化主题与 UI 细节\r\n\r\n### 🐛 Bug 修复 (Bug Fixes)\r\n\r\n- 优化 WebView 界面状态栏适配并实现软键盘自动避让\r\n\r\n### 💡 功能与体验优化 (Improvements)\r\n\r\n- 优化深浅模式切换的ui体验\r\n- 优化“学期结束”状态显示，将超出周数改为更精确的已结束天数\r\n\r\n### 🚀 性能与代码改进 (Improvements)\r\n\r\n- 迁移 Material 图标至本地矢量资源并移除相关依赖\r\n- 迁移离线资源初始化与分享缓存至 shared\r\n- 将通知/设置同步移至 shared 并简化 SyncManager\r\n- 优化同步管理与通知权限交互\r\n- 将ui迁移至 shared 模块以支持 KMP\r\n- 将 model配置迁移到 shared\r\n- 将 proto配置迁移到 shared\r\n- 迁移数据库层至 KMP 并升级 Room 3.0 Multiplatform\r\n- 迁移项目架构至 Kotlin Multiplatform (KMP)\r\n- 迁移 Git 实现至 KGIT 并优化仓库同步逻辑\r\n- 迁移依赖注入框架从 Hilt 至 Koin\r\n- 将数据层和工具类迁移至 shared 模块以支持 KMP",
     "downloadLinks": {
-      "arm64-v8a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.5/app-prod-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.5/app-prod-armeabi-v7a-release.apk",
-      "x86_64": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.5/app-prod-x86_64-release.apk",
+      "arm64-v8a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v2.0.0/shiguangschedule-v2.0.0-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v2.0.0/shiguangschedule-v2.0.0-armeabi-v7a-release.apk",
+      "x86_64": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v2.0.0/shiguangschedule-v2.0.0-x86_64-release.apk",
       "x86": "",
       "universal": ""
     }
   },
   "dev": {
-    "latestVersionCode": 33,
-    "latestVersionName": "v1.2.5-dev",
-    "changelog": "## v1.2.5-dev\r\n\r\n### ✨ 新增功能 (Features)\r\n\r\n- 课表选择对话框支持快速新建课表\r\n- 点击课程块展示详情弹窗\r\n\r\n### 🐛 Bug 修复 (Bug Fixes)\r\n\r\n- 仅在有效教学周允许添加课程并传递当前周次信息\r\n\r\n### 💡 功能与体验优化 (Improvements)\r\n\r\n- 优化今日课表排序逻辑并实现自动滚动至当前课程\r\n- 优化课程详情页周次显示及布局调整\r\n- 星期栏年份位置新增简单周次显示\r\n- 优化日程头部布局及文字显示，增加日期自适应隐藏逻辑\r\n- 优化课程块时间显示逻辑，支持 24 小时模式显示起止时间\r\n- 完善数据转换接口中时间段别名限制\r\n\r\n### 🚀 性能与代码改进 (Improvements)\r\n\r\n- 移除课程块中的多课程重叠堆叠图标及相关逻辑",
+    "latestVersionCode": 34,
+    "latestVersionName": "v2.0.0",
+    "changelog": "dev版本已废弃，请使用正式版本",
     "downloadLinks": {
-      "arm64-v8a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.5-dev/app-dev-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.5-dev/app-dev-armeabi-v7a-release.apk",
-      "x86_64": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/download/v1.2.5-dev/app-dev-x86_64-release.apk",
-      "x86": "",
-      "universal": ""
+      "arm64-v8a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/tag/v2.0.0",
+      "armeabi-v7a": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/tag/v2.0.0",
+      "x86_64": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/tag/v2.0.0",
+      "x86": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/tag/v2.0.0",
+      "universal": "https://github.com/XingHeYuZhuan/shiguangschedule/releases/tag/v2.0.0"
     }
   }
 }
